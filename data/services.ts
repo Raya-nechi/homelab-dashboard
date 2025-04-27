@@ -1,0 +1,60 @@
+import type { Service } from "@/types/service"
+
+export const services: Service[] = [
+  {
+    id: "proxmox",
+    name: "Proxmox",
+    description: "Virtualization platform",
+    url: "https://proxmox.local",
+    icon: "Server",
+    color: "#E57000",
+  },
+  {
+    id: "truenas",
+    name: "TrueNAS",
+    description: "Storage OS",
+    url: "https://truenas.local",
+    icon: "Database",
+    color: "#0095D5",
+  },
+  {
+    id: "jellyfin",
+    name: "Jellyfin",
+    description: "Media server",
+    url: "https://jellyfin.local",
+    icon: "Film",
+    color: "#00A4DC",
+  },
+  {
+    id: "qbittorrent",
+    name: "qBittorrent",
+    description: "Torrent client",
+    url: "https://qbittorrent.local",
+    icon: "Download",
+    color: "#3D9AE3",
+  },
+  {
+    id: "syncthing",
+    name: "Syncthing",
+    description: "File synchronization",
+    url: "https://syncthing.local",
+    icon: "RefreshCw",
+    color: "#0891B2",
+  },
+  {
+    id: "audiobookshelf",
+    name: "Audiobookshelf",
+    description: "Audiobook server",
+    url: "https://audiobookshelf.local",
+    icon: "Headphones",
+    color: "#F97316",
+  },
+  {
+    id: "immich",
+    name: "Immich",
+    description: "Photo management",
+    url: "https://immich.local",
+    icon: "Image",
+    color: "#4F46E5",
+  },
+]
